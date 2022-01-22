@@ -116,7 +116,7 @@ body {
 }
 
 .maincontentbox .studentsection .forpg .cardsection .card .rightbox {
-    background-color: #34434e9d;
+    background: linear-gradient(to right bottom, rgba(52, 67, 78, 0.614), rgba(52, 67, 78, 0.514), rgba(52, 67, 78, 0.614));
     margin: 5px;
     padding: 5px;
     width: 60%;
@@ -128,7 +128,7 @@ body {
     align-items: flex-start;
     border-radius: 10px;
     color: white;
-    background: #34434e;
+padding: 10px;
     box-shadow: 5px 5px 21px #565b5e, -5px -5px 21px #ffffff;
 }
 
@@ -229,7 +229,7 @@ body {
     justify-content:center;
     align-items: center;
     color: white;
-    background: #34434e;
+    background: linear-gradient(to right bottom, rgba(52, 67, 78, 0.614), rgba(52, 67, 78, 0.514), rgba(52, 67, 78, 0.614));
     box-shadow: 5px 5px 21px #565b5e, -5px -5px 21px #ffffff;
 }
 
@@ -274,10 +274,10 @@ body {
     justify-content: center;
     border-radius: 10px;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding:  10px;
     color: white;
-    background: #34434e;
+    background: linear-gradient(to right bottom, rgba(52, 67, 78, 0.614), rgba(52, 67, 78, 0.514), rgba(52, 67, 78, 0.614));
     box-shadow: 5px 5px 21px #565b5e, -5px -5px 21px #ffffff;
 }
 

@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color:#8398a5;
     font-family: 'Inconsolata', monospace;
 }
 
@@ -58,6 +58,7 @@ body {
     font-weight: 500;
     margin: 20px;
     padding: 10px;
+    z-index: 2;
 }
 
 .mainbox .rightbox .form {

@@ -6,7 +6,6 @@ html {
 
 body {
     background-color: var(--bg-color);
-    /* height: 100%; */
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -25,7 +24,10 @@ body {
     padding: 0;
     align-items: center;
 }
-
+.container .heading{
+    text-align: center;
+    margin: 20px;padding: 10px;
+}
 .img {
     background: fixed url(courses.jpg) no-repeat content-box;
     background-size: contain;

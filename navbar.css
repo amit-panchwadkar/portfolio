@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 :root {
     --bg-color: #b8cdd3;
-    --color: #63a3b6;
+    --color: #343d42;
     --tp-color: var(--tp-color);
     --card-color: #7f8e95;
 }
@@ -63,7 +63,9 @@ nav .container-fluid .navbar-brand img {
 nav .nav-item {
     margin: 0px 8px;
 }
-
+nav .nav-item .nav-link:hover {
+    color: #368098
+} 
 nav .navbar-light .navbar-nav .nav-link {
     color: var(--color);
     margin: 2px 5px;
@@ -96,6 +98,7 @@ nav li a::after {
 
 nav li a:hover::after {
     width: 100%;
+    color: #368098
 }
 
 nav .navbar-toggler {
@@ -172,6 +175,23 @@ nav .scrolled-up {
     }
     nav .container-fluid {
         width: 95%;
+    }
+    .navbar-nav .nav-item{
+        display: flex;margin: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .collapse {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 0px;
+        background-color:#b8cdd3;
+    }
+    nav .container-fluid{
+        background-color:#b8cdd3;
+
     }
 }
 
