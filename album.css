@@ -10,8 +10,9 @@ footer {
 }
 
 .album {
-    background: linear-gradient(145deg, #b4cedd, #aac4d4);
-    box-shadow: 20px 20px 60px #abc2cf, -20px -20px 60px #bddaec;
+    border-radius: 10px;
+    background: #D8E4EA;
+    box-shadow: 19px 19px 39px #c7d2d7, -19px -19px 39px #e9f6fd;
     margin-top: 80px;
     max-width: 100%;
     padding: 30px 50px;
@@ -37,6 +38,8 @@ footer {
     height: fit-content;
     transition: all 0.2s ease-in-out;
     border-radius: 10px;
+    background: #D8E4EA;
+    box-shadow: 19px 19px 39px #bec9ce, -19px -19px 39px #f2ffff;
 }
 
 .album .row a img:hover {
@@ -56,8 +59,8 @@ footer {
 
 .heading h2 {
     border-radius: 10px;
-    background: #96e4bb;
-    box-shadow: 7px 7px 13px #80c29f, -7px -7px 13px #adffd7;
+    background: #D8E4EA;
+    box-shadow: 19px 19px 39px #bec9ce, -19px -19px 39px #f2ffff;
     padding: 10px 20px;
     font-size: 40px;
 }
