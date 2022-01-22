@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="upbutton.css">
     <link rel="stylesheet" href="research_nd_consultancy.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="customscrollbar.css">
 </head>
 
 <body>
@@ -46,7 +47,7 @@
                             <a class="nav-link" aria-current="page" href="index.html">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="research_nd_consultancy.html">Research and consultancy</a>
+                            <a class="nav-link" href="research_nd_consultancy.html">Research <span class = "and_consultancy">and consultancy</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="student_project.html">student project</a>
@@ -225,7 +226,6 @@
             el_autohide = document.querySelector('.autohide');
 
             // add padding-top to bady (if necessary)
-            navbar_height = document.querySelector('.navbar').offsetHeight;
             document.body.style.paddingTop = navbar_height + 'px';
 
             if (el_autohide) {
