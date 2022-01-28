@@ -21,7 +21,8 @@ input {
 
 .background {
     display: flex;
-    min-height: 100vh;
+    min-height: fit-content;
+    margin-bottom: 50px;
 }
 
 .container {
