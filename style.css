@@ -242,13 +242,16 @@ body {
         margin-inline: 0;
         height: 350px;
         max-height: 350px;
+            border-radius: 10px;
+    background: #c3d8df;
+    box-shadow: 20px 20px 60px #a6b8be, -20px -20px 60px #e0f8ff;
     }
 }
 
 .awards .cards .card .number {
     width: 100%;
     font-size: 40px;
-    color: rgb(154, 162, 163);
+    color: rgb(113 126 128);
     padding-left: 20px;
 }
 
