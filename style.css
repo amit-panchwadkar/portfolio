@@ -125,7 +125,7 @@ body {
         padding: 15px;
         flex-direction: column-reverse;
         justify-content: flex-end;
-        padding-top: 65px;
+        padding-top: 70px;
         height: 120vh;
     }
     .left {
@@ -270,7 +270,7 @@ body {
     }
     .awards .cards .card {
         height: fit-content;
-        width: fit-content;
+        width: 100%;
     }
     .awards .cards .card .content {
         padding: 7px;
@@ -383,5 +383,8 @@ body {
     }
     .messagecard {
         flex-direction: column;
+    }
+    .page1 {
+        padding-top : 70px;
     }
 }
