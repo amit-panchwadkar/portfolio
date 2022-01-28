@@ -34,12 +34,12 @@ body {
 }
 
 .left h6 .line {
-    width: 20px;
-    height: 2px;
-    background: rgb(24, 103, 128);
+        width: 10%;
+    height: 1px;
+    background: linear-gradient(to right, transparent,rgb(24, 103, 128));
     float: left;
     align-self: center;
-    margin-right: 3px;
+    margin-right: 8px;
 }
 
 .left h1 {
