@@ -394,3 +394,7 @@ body {
         min-width: 365px;
     }
 }
+@media (max-width: 368px)
+.page1 {
+    padding-top: 110px;
+}
