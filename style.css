@@ -120,6 +120,7 @@ body {
 @media only screen and (max-width: 1068px) {
     .page1 .left p {
         font-size: 15px;
+        letter-spacing: 0.5px;
     }
     .page1 {
         padding: 15px;
@@ -389,5 +390,6 @@ body {
     }
     .page1 {
         padding-top : 70px;
+        min-width: 365px;
     }
 }
