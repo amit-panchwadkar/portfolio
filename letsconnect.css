@@ -26,8 +26,8 @@ body {
 }
 
 .mainbox .leftbox .img {
-    background: fixed content-box url(contactus.jpg) no-repeat ;
-    background-size: 100%;
+        background: fixed content-box url(contactus.jpg) center center no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100vh;
     position: absolute;
