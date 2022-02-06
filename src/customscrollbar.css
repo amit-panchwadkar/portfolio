@@ -1,0 +1,14 @@
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: #8398a5;
+    box-shadow: inset 35px 35px 41px #697a84, inset -35px -35px 41px #9db6c6;
+}
