@@ -6,12 +6,12 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+.background  {
     background-color: #D8E4EA;
     font-size: 12px;
 }
 
-body,
+.background ,
 button,
 input {
     font-family: 'Montserrat', sans-serif;
@@ -25,21 +25,21 @@ input {
     margin-bottom: 50px;
 }
 
-.container {
+.background .container {
     flex: 0 1 80%;
     margin: auto;
     padding: 10px;
     border-radius: 15px;
 }
 
-.screen {
+.background .screen {
     box-shadow: 14px 30px 55px 21px rgba(0, 0, 0, 0.25);
     position: relative;
     background: linear-gradient(to right bottom, rgba(52, 67, 78, 0.614), rgba(52, 67, 78, 0.514), rgba(52, 67, 78, 0.614));
     border-radius: 15px;
 }
 
-.screen:after {
+.background .screen:after {
     content: '';
     display: block;
     position: absolute;
@@ -52,7 +52,7 @@ input {
     z-index: -1;
 }
 
-.screen-header {
+.background .screen-header {
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -61,11 +61,11 @@ input {
     border-top-right-radius: 15px;
 }
 
-.screen-header-left {
+.background .screen-header-left {
     margin-right: auto;
 }
 
-.screen-header-button {
+.background .screen-header-button {
     display: inline-block;
     width: 8px;
     height: 8px;
@@ -74,23 +74,22 @@ input {
     background: white;
 }
 
-.screen-header-button.close {
+.background .screen-header-button.close {
     background: #D8E4EA;
 }
-
-.screen-header-button.maximize {
+.background .screen-header-button.maximize {
     background: #e8e925;
 }
 
-.screen-header-button.minimize {
+.background .screen-header-button.minimize {
     background: #74c54f;
 }
 
-.screen-header-right {
+.background .screen-header-right {
     display: flex;
 }
 
-.screen-header-ellipsis {
+.background .screen-header-ellipsis {
     width: 3px;
     height: 3px;
     margin-left: 2px;
@@ -98,21 +97,21 @@ input {
     background: #999;
 }
 
-.screen-body {
+.background .screen-body {
     display: flex;
 }
 
-.screen-body-item {
+.background .screen-body-item {
     flex: 1;
     padding: 50px;
 }
 
-.screen-body-item.left {
+.background .screen-body-item.left {
     display: flex;
     flex-direction: column;
 }
 
-.app-title {
+.background .app-title {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -120,7 +119,7 @@ input {
     font-size: 26px;
 }
 
-.app-title:after {
+.background .app-title:after {
     content: '';
     display: block;
     position: absolute;
@@ -131,27 +130,27 @@ input {
     background: #D8E4EA;
 }
 
-.app-contact {
+.background .app-contact {
     margin-top: auto;
     font-size: 14px;
     color: #666;
     font-weight: 700;
 }
 
-.app-form-group {
+.background .app-form-group {
     margin-bottom: 15px;
 }
 
-.app-form-group.message {
+.background .app-form-group.message {
     margin-top: 40px;
 }
 
-.app-form-group.buttons {
+.background .app-form-group.buttons {
     margin-bottom: 0;
     text-align: right;
 }
 
-.app-form-control {
+.background .app-form-control {
     width: 100%;
     padding: 10px 0;
     background: none;
@@ -164,15 +163,15 @@ input {
     transition: border-color .2s;
 }
 
-.app-form-control::placeholder {
+.background .app-form-control::placeholder {
     color: #666;
 }
 
-.app-form-control:focus {
+.background .app-form-control:focus {
     border-bottom-color: #ddd;
 }
 
-.app-form-button {
+.background .app-form-button {
     background: none;
     border: none;
     color: #D8E4EA;
@@ -182,11 +181,11 @@ input {
     outline: none;
 }
 
-.app-form-button:hover {
+.background .app-form-button:hover {
     color: black;
 }
 
-.credits {
+.background .credits {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +196,7 @@ input {
     font-weight: normal;
 }
 
-.credits-link {
+.background .credits-link {
     display: flex;
     align-items: center;
     color: #fff;
@@ -205,35 +204,35 @@ input {
     text-decoration: none;
 }
 
-.dribbble {
+.background .dribbble {
     width: 20px;
     height: 20px;
     margin: 0 5px;
 }
 
 @media screen and (max-width: 520px) {
-    .screen-body {
+    .background .screen-body {
         flex-direction: column;
     }
-    .screen-body-item.left {
+    .background .screen-body-item.left {
         margin-bottom: 30px;
     }
-    .app-title {
+    .background .app-title {
         flex-direction: row;
     }
-    .app-title span {
+    .background .app-title span {
         margin-right: 12px;
     }
-    .app-title:after {
+    .background .app-title:after {
         display: none;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .screen-body {
+    .background .screen-body {
         padding: 40px;
     }
-    .screen-body-item {
+    .background .screen-body-item {
         padding: 0;
     }
 }
